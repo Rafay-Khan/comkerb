@@ -44,3 +44,26 @@
 	font-size: 80px;
 	color: #8f8f8f;
 }
+.main-container .main-header {
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	height: 455px;
+}
+.main-container .main-header .navigation {
+	background-color: #e2e4e4;
+	height: 60px;
+	line-height: 60px;
+}
+.main-container .main-header .navigation .inner-container .menu li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+.main-container .main-header .navigation .inner-container .menu li:last-child {
+	margin-right: 0px;
+}
+.main-container .main-header .navigation .inner-container .menu li a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 20px;
+}
