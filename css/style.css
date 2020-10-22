@@ -5,12 +5,16 @@
 }	
 .main-container {
 	background-color: #ffffff;
-	max-width: 1180px; 
+	max-width: 1180px;
+	margin: 0 auto; 
 }
 .main-container span.red {
 	color: #a01d20;
 	font-family: 'Open Sans', sans-serif;
 
+}
+.main-container span.heading {
+	color : #b52e32;
 }
 .main-container .inner-container {
 	max-width: 960px;
@@ -36,6 +40,7 @@
 	grid-template-columns: 1fr 40px;
 	grid-template-rows: 1fr;
 	align-items: center;
+	grid-gap: 15px;
 }
 .main-container .top-header .inner-container .header-top .right .right-1 p {
 	font-weight: 100;
@@ -66,4 +71,70 @@
 	text-decoration: none;
 	color: #000000;
 	font-size: 20px;
+}
+.main-container .main-header .navigation .inner-container .menu li a:hover {
+	color: red;
+}
+.main-container .banner {
+	background-image: url("../images/banner.png"); 
+	height: 561px;
+}
+.main-container .banner .inner-container .content {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: 620px auto;
+	grid-template-rows: 1fr;
+	grid-gap: 30px;
+}
+.main-container .banner .inner-container .content .left h1 {
+	margin-bottom: 45px;
+	font-size: 38px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-container .banner .inner-container .content .left p {
+	font-size: 15px;
+	color: #cccccc;
+	margin-bottom: 35px;
+    width: 570px;
+
+}
+.main-container .banner .inner-container .content .left .one {
+	color: #999999;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+.main-container .banner .inner-container .content .right h1 {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 100px;
+	margin-bottom: 25px;
+}
+.main-container .banner .inner-container .content .right .list ul {
+	margin-bottom: 30px;
+}
+.main-container .banner .inner-container .content .right .list ul li {
+	list-style: none;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 6px auto;
+	grid-gap: 15px;
+	align-items: center;
+}
+.main-container .banner .inner-container .content .right .list button {
+	width: 310px;
+	height: 55px;
+	background-color: #9d1b1f;
+	border : none;
+    display: grid;
+    grid-template-columns: 16px auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.main-container .banner .inner-container .content .right .list button p {
+	color: #ffffff;
+	font-size: 16px;
 }
