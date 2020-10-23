@@ -180,49 +180,46 @@
 	height: 35px;
 	line-height: 35px;
 }
-.main-container .top-footer .inner-container .footer-top .right .box .box-1 .one {
-	color: #a4a4a4;
-	height: 35px;
-	line-height: 35px;
-	background-color: #eaeaea;
-	border-radius: 5px;
-}
-.main-container .top-footer .inner-container .footer-top .right .box .box-1 .one p {
-	padding-left: 20px;
+.main-container .top-footer .inner-container .footer-top .right .box .box-1 .one form input {
+	padding: 0px 20px;
 	font-style: italic;
-}
-.main-container .top-footer .inner-container .footer-top .right .box .box-1 .second {
-	color: #a4a4a4;
-	height: 35px;
-	line-height: 35px;
+	width: 100%;
+    height: 35px;
 	background-color: #eaeaea;
-	border-radius: 5px;
+	outline: none;
+    border: none;
+    border-radius: 5px;
 }
-.main-container .top-footer .inner-container .footer-top .right .box .box-1 .second p {
-	padding-left: 20px;
+.main-container .top-footer .inner-container .footer-top .right .box .box-1 .second form input {
+	padding: 0px 20px;
 	font-style: italic;
-}
-.main-container .top-footer .inner-container .footer-top .right .box .box-2 {
-	color: #a4a4a4;
-	height: 35px;
-	line-height: 35px;
+	width: 100%;
+    height: 35px;
 	background-color: #eaeaea;
-	border-radius: 5px;
+	outline: none;
+    border: none;
+    border-radius: 5px;
 }
-.main-container .top-footer .inner-container .footer-top .right .box .box-2 p {
-	padding-left: 20px;
+.main-container .top-footer .inner-container .footer-top .right .box .box-2 form input {
+	padding: 0px 20px;
 	font-style: italic;
-}
-.main-container .top-footer .inner-container .footer-top .right .box .box-3 {
-	color: #a4a4a4;
-	height: 65px;
-	line-height: 65px;
+	width: 100%;
+    height: 35px;
 	background-color: #eaeaea;
-	border-radius: 5px;
+	outline: none;
+    border: none;
+    border-radius: 5px;
 }
-.main-container .top-footer .inner-container .footer-top .right .box .box-3 p {
-	padding-left: 20px;
+.main-container .top-footer .inner-container .footer-top .right .box .box-3 form textarea {
+	padding: 0px 20px;
 	font-style: italic;
+	width: 100%;
+    height: 35px;
+    line-height: 35px;
+	background-color: #eaeaea;
+	outline: none;
+    border: none;
+    border-radius: 5px;
 }
 .main-container .top-footer .inner-container .footer-top .right .box .grid-button {
 	display: grid;
@@ -234,7 +231,6 @@
 .main-container .top-footer .inner-container .footer-top .right .box .grid-button p {
 	font-size: 12px;
     justify-self: end;
-
 }
 .main-container .top-footer .inner-container .footer-top .right .box .grid-button button {
 	width: 180px;
