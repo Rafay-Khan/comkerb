@@ -56,6 +56,9 @@
 	background-image: url("../images/background.png");
 	background-repeat: no-repeat;
 	height: 455px;
+	display: grid;
+    grid-template-rows: auto 395px;
+    grid-template-columns: 1fr;
 }
 .main-container .main-header .navigation {
 	background-color: #e2e4e4;
@@ -78,10 +81,54 @@
 .main-container .main-header .navigation .inner-container .menu li a:hover {
 	color: red;
 }
+.main-container .main-header .sliders {
+	align-self: end;
+}
+.main-container .main-header .sliders .inner-container .oppacity {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    bottom: -45px;
+}
+.main-container .main-header .sliders .inner-container .oppacity .lorium {
+	    background-color:rgba(0,0,0,0.8);
+}
+.main-container .main-header .sliders .inner-container .oppacity .lorium:hover {
+	bottom: 45px;
+	position: relative;
+}
+.main-container .main-header .sliders .inner-container .oppacity h1 {
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	padding-top: 15px;
+}
+.main-container .main-header .sliders .inner-container .oppacity p {
+	color: #c1c0c0;
+	margin-bottom: 40px;
+}
+.main-container .main-header .sliders .inner-container .oppacity button {
+	width: 320px;
+	height: 55px;
+	background-color: #9d1b1f;
+	border : none;
+    display: grid;
+    grid-template-columns: 16px auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.main-container .main-header .sliders .inner-container .oppacity button p {
+	margin-bottom: 0px;
+}
 .main-container .banner {
 	background-image: url("../images/banner.png"); 
 	height: 561px;
 	font-family: 'Open Sans', sans-serif;
+	z-index: 2;
 }
 .main-container .banner .inner-container .content {
 	padding-top: 50px;
@@ -274,9 +321,6 @@
 	font-size: 16px;
 	padding: 0px 10px; 
 }
-/*.main-container footer .inner-container .footer-division .left .footer-menu li a:last-child {
-	border: none;
-}*/
 .main-container footer .inner-container .footer-division .left .footer-menu li a:hover {
 	color: red;
 }
