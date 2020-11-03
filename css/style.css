@@ -94,10 +94,10 @@
     transform: translate(-50%, -50%);
 }
 .main-container .main-header .sliders .arrows .left i {
-	left: 22%;
+	left: 27%;
 }
 .main-container .main-header .sliders .arrows .right i {
-	right: 8%;
+	right: 15%;
 }
 .main-container .main-header .sliders .inner-container .oppacity {
 	display: grid;
@@ -145,7 +145,7 @@
 	font-family: 'Open Sans', sans-serif;
 	z-index: 2;
 	background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .main-container .banner .inner-container .content {
 	padding-top: 50px;
@@ -164,7 +164,7 @@
 	font-size: 15px;
 	color: #cccccc;
 	margin-bottom: 35px;
-    width: 570px;
+/*    width: 570px;*/
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
 }
